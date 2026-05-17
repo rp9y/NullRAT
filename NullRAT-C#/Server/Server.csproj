@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AsciiArt.cs" />
+
+    <Compile Include="Commands\CommandHandler.cs" />
+
+    <Compile Include="Core\Agent.cs" />
+    <Compile Include="Core\AgentManager.cs" />
+    <Compile Include="Core\Listener.cs" />
+    <Compile Include="Core\ServerCore.cs" />
+
+    <Compile Include="UI\ConsoleUI.cs" />
+
+    <Compile Include="Utils\Crypto.cs" />
+
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+
+</Project>

